@@ -1,0 +1,61 @@
+.navbar{
+    border-bottom: solid black 2px;
+}
+a {
+    color:black;
+    font-size: 1.1em;
+}
+a:hover{
+    color: black;
+    text-decoration: underline 3px;
+}
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 1.5em;
+}
+h3 {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+}
+.start{
+    font-family: 'Press Start 2P', cursive;
+    
+}
+.startbutton{
+    align-content: center;
+}
+.game-area{
+    margin-left: 38vw;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    width: 300px;
+    height: 300px;
+    box-sizing: content-box;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.shooter{
+    background-color: slategrey;
+}
+ 
+.invader{
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+.boom{
+    background-color: red;
+}
+
+.laser{
+    background-color: blue;
+}

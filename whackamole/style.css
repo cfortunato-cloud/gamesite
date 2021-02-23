@@ -1,0 +1,45 @@
+.navbar{
+    border-bottom: solid black 2px;
+}
+a {
+    color:black;
+    font-size: 1.1em;
+}
+a:hover{
+    color: black;
+    text-decoration: underline 3px;
+}
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive; 
+   
+}
+h2{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 1em;
+}
+.button{
+    font-family: 'Press Start 2P', cursive;
+    align-items: center;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+}
+.game-area{
+    margin-left: 27vw;
+}
+.grid {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+}
+.mole {
+    background-image: url('mole.png');
+    background-size: cover;
+}

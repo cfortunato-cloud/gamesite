@@ -1,0 +1,68 @@
+.navbar{
+    border-bottom: solid black 2px;
+}
+a {
+    color:black;
+    font-size: 1.1em;
+}
+a:hover{
+    color: black;
+    text-decoration: underline 3px;
+}
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 1.5em;
+}
+h3 {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+}
+.game-area{
+    margin-left: 42vw;
+}
+#button{
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 42vw;
+}
+h3 {
+    font-family: 'Press Start 2P', cursive;
+}
+.button{
+    font-family: 'Press Start 2P', cursive;
+}
+.grid {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 180px;
+    width: 180px;
+    box-sizing: content-box;
+}
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+.ending-block {
+    background-color: black;
+
+}
+.starting-block {
+    background-color: blue;
+}
+.c2, .c3 {
+    background-color: grey;
+}
+.c1 {
+    background-color: orangered;
+}
+.l4, .l5 {
+    background-color: lightskyblue;
+}
+.l1, .l2, .l3 {
+    background-color: brown;
+}
+.frog {
+    background-color: green;
+}
